@@ -1,0 +1,74 @@
+.my-bookings-page {
+  padding: 40px;
+  background: #f4f6fa;
+  min-height: 100vh;
+}
+
+.my-bookings-page h2 {
+  margin-bottom: 25px;
+}
+
+.booking-card {
+  display: flex;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.booking-image {
+  width: 260px;
+  object-fit: cover;
+}
+
+.booking-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.booking-details h3 {
+  margin-bottom: 10px;
+}
+
+.booking-details p {
+  margin: 6px 0;
+  color: #444;
+}
+
+.total {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.booking-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.download-btn {
+  background: #1565ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background: #0d4fd6;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #d93636;
+}
