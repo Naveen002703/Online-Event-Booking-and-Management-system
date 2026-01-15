@@ -2,6 +2,8 @@ git clone https://github.com/Naveen002703/Online-Event-Booking-and-Management-sy
 
 cd Online-Event-Booking-and-Management-system
 
+npm install
+
 npm install react-router-dom
 
 npm install react-bootstrap
