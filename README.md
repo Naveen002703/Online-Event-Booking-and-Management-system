@@ -8,4 +8,6 @@ npm install react-router-dom
 
 npm install react-bootstrap
 
+npm install jspdf html2canvas
+
 npm run dev
